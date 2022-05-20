@@ -470,16 +470,15 @@ async def stop(_, message: Message):
     )
 
 
-@Client.on_message(commandpro(["reload", "/reload", ".reload", "!reload", "admincache"]))
+@Client.on_message(commandpro(["reload", ".reload", "/reload", "!reload", "/admincache"]))
 @errors
 @authorized_users_only
-async def admincache(client, message: Message):
+async def update_admin(client, message):
     global a
     await message.delete()
     new_admins = []
     new_ads = await client.get_chat_members(message.chat.id, filter="administrators")
     for u in new_ads:
         new_admins.append(u.user.id)
-    admins[message.chat.id] = new_admins
-    await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**"
-    )
+    a[message.chat.id] = new_admins
+    await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**")
