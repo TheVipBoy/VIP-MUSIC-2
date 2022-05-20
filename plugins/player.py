@@ -197,16 +197,16 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"https://t.me/{PROFILE_CHANNEL}")
+                            url=f"{PROFILE_CHANNEL}")
                    
                 ]
             ]
@@ -250,16 +250,16 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"https://t.me/{PROFILE_CHANNEL}")
+                            url=f"{PROFILE_CHANNEL}")
                    
                 ]
             ]
@@ -280,16 +280,16 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"https://t.me/{PROFILE_CHANNEL}")
+                            url=f"{PROFILE_CHANNEL}")
                    
                 ]
             ]
@@ -348,16 +348,16 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"https://t.me/{PROFILE_CHANNEL}")
+                            url=f"{PROFILE_CHANNEL}")
                    
                 ]
             ]
