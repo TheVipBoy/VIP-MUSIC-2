@@ -74,14 +74,14 @@
             
         },
         "SUPPORT_GROUP": {
-            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
+            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
             "required": true,
-            "value": "AdityaDiscus"
+            "value": "https://t.me/AdityaDiscus"
         },
         "UPDATES_CHANNEL": {
-            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
+            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
             "required": true,
-            "value": "AdityaServer"
+            "value": "https://t.me/AdityaServer"
         }
     },
     "buildpacks": [
