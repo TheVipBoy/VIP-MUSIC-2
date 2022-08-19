@@ -41,7 +41,7 @@ async def start_(client: Client, message: Message):
 
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃   » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{OWNER_USERNAME})
-┣★ 𝐁𝐨𝐭-𝐒𝐨𝐮𝐫𝐜𝐞 » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SOURCE_CODE})
+┣★ 𝐍𝐞𝐭𝐰𝐨𝐫𝐤  » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SOURCE_CODE})
 ┣★ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({UPDATES_CHANNEL})
 ┣★ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SUPPORT_GROUP})
 ┗━━━━━━━━━━━━━━━━━┛
@@ -80,7 +80,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/c6e1041c6c9a12913f57a.png",
+        photo=f"https://telegra.ph/file/cfcad824b691f3c9a5c0e.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
