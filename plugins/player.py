@@ -194,17 +194,8 @@ async def play(_, message: Message):
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
-               [
+               [        
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
                             url=f"{PROFILE_CHANNEL}")
                    
@@ -247,17 +238,8 @@ async def play(_, message: Message):
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
-               [
+               [        
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
                             url=f"{PROFILE_CHANNEL}")
                    
@@ -277,17 +259,8 @@ async def play(_, message: Message):
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
-               [
+               [        
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
                             url=f"{PROFILE_CHANNEL}")
                    
@@ -345,17 +318,8 @@ async def play(_, message: Message):
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
-               [
+               [        
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
                             url=f"{PROFILE_CHANNEL}")
                    
