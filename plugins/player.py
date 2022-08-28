@@ -107,7 +107,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: STD KING (@STD_KING)",
+        f"Powered By: VIP BOY (@THE_VIP_BOY)",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", ".play", "!play", "play", "@", "#", "$"])
+    commandpro(["/play", ".play", "!play", "play", "@", "#", "vplay", "cplay", "/vplay", "$"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -127,7 +127,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🎶**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -135,7 +135,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "VIP_PLAYER"
     usar = user
     wew = usar.id
     try:
@@ -182,7 +182,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/cfcad824b691f3c9a5c0e.jpg"
+        thumb_name = "https://telegra.ph/file/94a4b839ca24c1c4d34f3.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -197,7 +197,7 @@ async def play(_, message: Message):
                [        
                     InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"https://t.me/VIP_DUNIA")
                    
                 ]
             ]
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                [        
                     InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"https://t.me/VIP_DUNIA")
                    
                 ]
             ]
@@ -249,7 +249,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/cfcad824b691f3c9a5c0e.jpg"
+            thumb_name = "https://telegra.ph/file/94a4b839ca24c1c4d34f3.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -262,7 +262,7 @@ async def play(_, message: Message):
                [        
                     InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"https://t.me/vip_dunia")
                    
                 ]
             ]
@@ -281,7 +281,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**"
             )
-        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+        await lel.edit("**BABY😘VC🙈JOIN🥱KRO👀SONG🎶PLAY🥳KAR😇RHI😁HU🥀**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -321,7 +321,7 @@ async def play(_, message: Message):
                [        
                     InlineKeyboardButton(
                             text="🧑🏻‍💻 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 📡",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"https://t.me/vip_dunia")
                    
                 ]
             ]
