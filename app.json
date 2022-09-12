@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg",
     "description": "🥀 𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐚𝐧𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐕𝐂 ✨",
     "keywords": ["tgmusicbot", "voice chat", "telegram"],
-    "repository": "https://github.com/itsvipboy1/VIP-MUSIC",
+    "repository": "https://github.com/TheVipBoy/VIP-MUSIC-2",
     "stack": "container",
     "env": {
         "API_HASH": {
@@ -41,7 +41,7 @@
         "BOT_USERNAME": {
             "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
             "required": true,
-            "value": "TG_MANAGER_ROBOT"
+            "value": "TG_MUSIC_ROBOT"
         },
         "DURATION_LIMIT": {
             "description": "𝑺𝒆𝒕 𝑴𝒂𝒙𝒊𝒎𝒖𝒎 𝑴𝒖𝒔𝒊𝒄 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 𝑳𝒊𝒎𝒊𝒕 (𝑴𝒊𝒏𝒖𝒕𝒆𝒔) 𝒀𝒐𝒖 𝑾𝒂𝒏𝒕",
@@ -61,7 +61,7 @@
         "SOURCE_CODE": {
             "description": "𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚 𝑳𝒊𝒏𝒌 𝑭𝒐𝒓 𝑭𝒖𝒕𝒖𝒓𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔",
             "required": true,
-            "value": "https://github.com/itsvipboy1/VIP-MUSIC"
+            "value": "https://github.com/TheVipBoy/VIP-MUSIC-2"
         },
         "STRING_SESSION": {
             "description": "𝒀𝒐𝒖𝒓 𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎 𝑺𝒕𝒓𝒊𝒏𝒈 𝑺𝒆𝒔𝒔𝒊𝒐𝒏 (𝑮𝒆𝒕 𝒊𝒕 𝑭𝒓𝒐𝒎 𝑹𝒆𝒑𝒍𝒊𝒕)",
